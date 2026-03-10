@@ -1,0 +1,4 @@
+this is a copy of the old p5.serialserver code.
+upgraded it to use serialport 12.0.0, and other upgrades.
+it works with the latest 'node' now.
+-rolf
