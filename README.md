@@ -18,11 +18,13 @@ To see the original repository, please visit [https://github.com/p5-serial/p5.se
 
 Follow these steps:
 
-1. Connect an Arduino microcontroller or any other serial device to your computer.
-2. Clone or download this repository.
-3. Follow the steps use the Node.js version.
+1. Clone or download this repository.
+2. Follow the Node Setup step
+3. Follow the P5 Setup step
+4. Connect an Arduino microcontroller (or similar serial device) to your computer.
+5. Follow the Arduino Sketch Setup step
 
-### Node.js Installation
+### Node Setup
 
 1. Open the terminal and navigate to this repository.
 2. Install the dependencies with the command `npm install`.
@@ -37,6 +39,10 @@ Follow these steps:
 3. Edit the line of the P5 sketch that specifies the serial port (serialPortName).
 4. Run the sketch again. Select the button "update port" to connect to the p5.serialserver.
 5. Try adjusting the analog sensor on the Arduino. It should update the circle in the center of the window.
+
+### Arduino Sketch Setup
+
+1. Pick a sketch from inside the __arduino__ directory and add it to your Arduino sketches.
 
 ![screenshot](./p5-circle-screenshot.png)
 
