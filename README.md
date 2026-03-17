@@ -38,7 +38,7 @@ Follow these steps:
 4. Run the sketch again. Select the button "update port" to connect to the p5.serialserver.
 5. Try adjusting the analog sensor on the Arduino. It should update the circle in the center of the window.
 
-[!screenshot](./p5-circle-screenshot.png)
+![screenshot](./p5-circle-screenshot.png)
 
 ## Contributions
 My contribution is small. I merely ported this to a more modern version of SerialPort (v12).
